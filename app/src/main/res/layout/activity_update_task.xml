@@ -65,18 +65,15 @@
         android:layout_width="360dp"
         android:layout_height="443dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="22dp"
-        android:layout_marginTop="141dp"
         android:layout_marginEnd="29dp"
         android:layout_marginBottom="147dp"
         android:background="@drawable/pink_border"
         android:ems="10"
         android:hint="Enter Description..."
-        android:inputType="text"
-        android:layout_below="@+id/updateNameEditText"/>
+        android:inputType="text" />
 
 
 </RelativeLayout>
