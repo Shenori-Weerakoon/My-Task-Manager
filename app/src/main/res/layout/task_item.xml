@@ -28,6 +28,14 @@
                 android:textSize="18dp"
                 android:textStyle="bold"/>
 
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/updateButton"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/edit_24"/>
+
         </RelativeLayout>
         
         <TextView

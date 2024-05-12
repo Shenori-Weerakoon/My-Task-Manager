@@ -38,7 +38,7 @@
         android:backgroundTint="@color/white"
         android:foregroundTint="#FFFFFF"
         android:clickable="true"
-        app:srcCompat="@drawable/baseline_cloud_done_24"/>
+        app:srcCompat="@drawable/check_24"/>
 
     <EditText
         android:id="@+id/editTaskName"
