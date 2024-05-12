@@ -27,7 +27,7 @@
         android:textSize="18sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/saveButton"
         android:layout_width="46dp"
         android:layout_height="40dp"
         android:layout_alignTop="@+id/addnewtask"
@@ -37,6 +37,7 @@
         android:background="@color/white"
         android:backgroundTint="@color/white"
         android:foregroundTint="#FFFFFF"
+        android:clickable="true"
         app:srcCompat="@drawable/baseline_cloud_done_24"/>
 
     <EditText
