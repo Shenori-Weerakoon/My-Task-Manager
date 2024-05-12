@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddTaskActivity">
+
+    <TextView
+        android:id="@+id/addnewtask"
+        android:layout_width="343dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="top"
+        android:layout_marginBottom="680dp"
+        android:fontFamily="@font/poppins"
+        android:text="Add New Task"
+        android:textColor="#E82E6D"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/addnewtask"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="680dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:foregroundTint="#FFFFFF"
+        app:srcCompat="@drawable/baseline_cloud_done_24"/>
+
+    <EditText
+        android:id="@+id/editTaskName"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="603dp"
+        android:background="@drawable/pink_border"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter Task Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editDesc"
+        android:layout_width="360dp"
+        android:layout_height="443dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="147dp"
+        android:background="@drawable/pink_border"
+        android:ems="10"
+        android:hint="Enter Description..."
+        android:inputType="text" />
+
+
+</RelativeLayout>
